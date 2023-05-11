@@ -70,7 +70,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/QuincyJ1)
+Dainius: [Github](https://github.com/QuincyJ1)
 
 ## ⚠️ License
 
