@@ -4,22 +4,18 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 800px;
-    background-color: pink;
     margin-left: calc(50% - 400px);
     margin-bottom: 60px;
 }
 
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     margin-top: 10px;
 }
 
-main>img {
-   width: 50%; 
-}
 
 .logo {
    height: 40px; 
@@ -41,23 +37,36 @@ text-decoration: underline;
 }
 
 .left-column {
+width: 40%;
+}
 
+.orange {
+    color: #ff4622;
 }
 
 .main-title {
-
+font-weight: normal;
+font-size: 37px;
 }
 
 .description {
-
+font-size: 17px;
+line-height: 22px;
 }
 
 .btn {
-
+display: inline-block;
+background-color: #FF4622;
+color: white;
+padding: 15px 35px;
+text-decoration: none;
+font-size: 18px;
+line-height: 20px;
+border-radius: 5px;
 }
 
 .right-column {
-    
+    width: 50%;
 }
 
 footer {
