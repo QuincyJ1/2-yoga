@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -13,73 +14,31 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<style>
-    body {
-        margin: 0;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
-
-    header, main, footer {
-        width: 800px;
-        background-color: pink;
-        margin-left: calc(50% - 400px);
-        margin-bottom: 60px;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        margin-top: 10px;
-    }
-
-    main>img {
-       width: 50%; 
-    }
-
-    nav {
-     display: flex;
-     gap: 15px;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 19px;
-    }
-
-    a:hover {
-text-decoration: underline;
-    }
-
-    footer {
-        margin-bottom: 20px;
-    }
-
-</style>
 </head>
 <body>
-    <header>
-       <img src="logo.png" alt="Logo">
-       <nav>
-        <a href="#">Home</a>
-        <a href="#">Instructors</a>
-        <a href="#">Schedule</a>
-        <a href="#">About studio</a>
-        <a href="#">Blog</a>
-        <a href="#">Contacts</a>
+    <header class="container main-header">
+       <img class="logo" src="./img/logo.png" alt="Logo">
+       <nav class="main-menu">
+        <a class="menu-link" href="#">Home</a>
+        <a class="menu-link" href="#">Instructors</a>
+        <a class="menu-link" href="#">Schedule</a>
+        <a class="menu-link" href="#">About studio</a>
+        <a class="menu-link" href="#">Blog</a>
+        <a class="menu-link" href="#">Contacts</a>
        </nav>
     </header>
     
-    <main>
-        <div>
-text
+    <main class="container">
+        <div class="left-column">
+<h1 class="main-title"></h1>
+<p class="description"></p>
+<a class="btn" href="#"></a>
         </div>
-        <img src="yoga main.png" alt="yoga-girl">
+        <img class="right-column" src="./img/yoga main.png" alt="yoga-girl">
         
     </main>
     
-    <footer>
+    <footer class="container">
         FOOTER
     </footer>
 </body>
