@@ -24,13 +24,14 @@ body {
 
 .main-menu {
  display: flex;
- gap: 15px;
+ font-size: 19px;
+ gap: 1em;
+ 
 }
 
 .menu-link {
     text-decoration: none;
     color: black;
-    font-size: 19px;
     border-bottom: 3px solid transparent;
 }
 
@@ -54,35 +55,61 @@ width: 40%;
 .main-title {
 font-weight: normal;
 font-size: 37px;
+line-height: 1.28em;
 }
 
 .description {
 font-size: 17px;
-line-height: 22px;
+line-height: 1.3em;
 }
 
 .btn {
 display: inline-block;
 background-color: #FF4622;
 color: white;
-padding: 15px 35px;
-text-decoration: none;
 font-size: 18px;
-line-height: 20px;
-border-radius: 5px;
+padding: 0.8em 2em;
+text-decoration: none;
+line-height: 1.1em;
+border-radius: 0.3em;
+box-shadow: 0em 0.1em 0.5em 0em  #0009;
 }
 
 .btn:hover {
 background-color: #d33313;
 border-radius: 8px;
 cursor: no-drop;
-box-shadow: 0px 2px 10px 0px  #0009;
+box-shadow: 0px 4px 12px 0px  #0009;
 }
 
 .right-column {
     width: 50%;
 }
 
-footer {
-    margin-bottom: 20px;
+.main-footer {
+    margin-bottom: 30px;
+}
+
+.socials {
+display: flex;
+gap: 10px;
+}
+
+.fa {
+text-decoration: none;
+color:  #FF4622;
+font-size: 20px;
+width: 1em;
+height: 1em;
+line-height: 1em;
+}
+
+.fa:hover {
+    color: #b0331a;
+    font-size: 28px;
+    margin: -4px;
+}
+
+.copyright {
+
 }
