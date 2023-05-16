@@ -31,10 +31,15 @@ body {
     text-decoration: none;
     color: black;
     font-size: 19px;
+    border-bottom: 3px solid transparent;
 }
 
 .menu-link:hover {
-text-decoration: underline;
+border-bottom-color: red;
+}
+
+.active {
+    border-bottom-color: red;
 }
 
 .left-column {
