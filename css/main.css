@@ -110,13 +110,6 @@ line-height: 1em;
     margin: -4px;
 }
 
-.copyright {
-
-}
-
-
-
-
 @media (max-width: 900px) {
 .left-column {
     width: 500px;
@@ -141,9 +134,7 @@ line-height: 1em;
     @media (max-width: 813px) {
         .main-header,
         .left-column,
-        .main-footer,
-        
-        {
+        .main-footer,  {
             width: 200px;
             margin: 0 auto;
             margin-bottom: 60px;
@@ -165,9 +156,6 @@ line-height: 1em;
             margin-left: calc(50% - 100px)
             display: block;
           float: left;
-            
         }
-
-      
         }
-        } 
+        
