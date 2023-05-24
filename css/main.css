@@ -51,12 +51,12 @@ body {
 
 .main-title {
   font-weight: normal;
-  font-size: 37px;
+  font-size: 40px;
   line-height: 1.28em;
 }
 
 .description {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.3em;
 }
 
@@ -64,7 +64,7 @@ body {
   display: inline-block;
   background-color: #ff4622;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   padding: 0.8em 2em;
   text-decoration: none;
   line-height: 1.1em;
