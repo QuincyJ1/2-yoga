@@ -127,6 +127,10 @@ body {
   .main-section {
     margin: calc(80% - 275px);
   }
+  .right-column {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 390px) {
