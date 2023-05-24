@@ -111,5 +111,47 @@ body {
   .container {
     display: grid;
     margin-left: calc(80% - 400px);
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    display: grid;
+    margin-left: calc(60% - 275px);
+    width: 100%;
+  }
+  .main-menu {
+    flex-direction: column-reverse;
+  }
+  .main-section {
+    margin: calc(80% - 275px);
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    display: grid;
+    margin-left: calc(60% - 275px);
+    width: 100%;
+  }
+  .main-header {
+    flex-direction: column-reverse;
+    margin-left: 7em;
+  }
+  .main-section {
+    margin: calc(80% - 195px);
+  }
+  .main-title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .main-footer {
+    margin-left: calc(80% - 195px);
   }
 }
